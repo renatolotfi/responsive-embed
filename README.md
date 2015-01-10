@@ -13,15 +13,15 @@ A [Polymer](http://polymer-project.org) element for responsive embeds
 Install using [Bower](http://bower.io):
 
 ```shell
- bower install responsive-embed
+$ bower install responsive-embed --save
 ```
 
 ## Usage
 
-1. Import Web Components' polyfill (platform.js)
+1. Import Web Components' polyfill (webcomponents.js)
 
     ```html
-    <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.1.4/platform.js"></script>
+    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
     ```
 
 2. Import Custom Element:
@@ -42,9 +42,9 @@ Install using [Bower](http://bower.io):
 
 Attribute  | Options                   | Default             | Description
 ---        | ---                       | ---                 | ---
-`ratio`      | "16:9", "4:3", "21:9"                  | "16:9"                  | Aspect ratio of the internal content
+`ratio`      | `1:1`, `4:3`,`16:9`, `21:9`                  | `16:9`                  | Aspect ratio of the internal content
 
-## Examples:
+## Example:
 
 ```html
 <responsive-embed ratio="16:9">
