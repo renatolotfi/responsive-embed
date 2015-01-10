@@ -48,7 +48,7 @@ Attribute  | Options                   | Default             | Description
 
 ```html
 <responsive-embed ratio="16:9">
-  <iframe src="//www.youtube.com/embed/UpuJS4LO_Ms" frameborder="0" allowfullscreen></iframe>  
+  <iframe src="//www.youtube.com/embed/LRt2jX1kaYo" frameborder="0" allowfullscreen></iframe>  
 </responsive-embed>
 ```
 
